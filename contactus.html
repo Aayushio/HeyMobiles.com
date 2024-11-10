@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+      <!-- Header -->
+  <header class="header">
+    <div class="logo">
+        <a href="index.html">
+          <img src="LOGO.png" height="40">
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-links">
+      <a href="findmobiles.html">Find Mobiles</a>
+      <a href="compare.html">Compare</a>
+      <a href="news.html">News</a>
+      <a href="contactus.html" target="_blank">Contact Us</a>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" placeholder="Search mobiles..." class="search-input">
+      <button class="search-button">Search</button>
+    </div>
+
+    <!-- Login & Signup Buttons -->
+    <div class="auth-buttons">
+      <button class="login-button">
+        <a href="login.html">Login</a>
+      </button>
+      <button class="signup-button">
+        <a href="signup.html">Sign Up</a>
+      </button>
+    </div>
+  </header>
+    <center>
+    <div id="MainDiv">
+        <h1>
+            Contact Us
+        </h1>
+        <!-- <form action="abc.php"> -->
+            <form onsubmit="return(sub())" name="myform">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Full Name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br>
+                <label for="Messages">Message:</label>
+                <textarea name="messages" id="messages" cols="20" rows="5"></textarea>
+                <br>
+                <input type="submit" value="Send">
+                <input type="reset" value="RESET">
+            </form>
+    </div>
+    </center>
+        <!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+
+      <!-- Footer Links -->
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p>Email: heymobiles@gmail.com</p>
+        <p>Phone: +91 81750 82179</p>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="footer-section social">
+        <h3>Follow Us</h3>
+        <a href="https://www.facebook.com/">Facebook</a> |
+        <a href="https://x.com/">Twitter</a> |
+        <a href="https://www.instagram.com/">Instagram</a>
+      </div>
+      
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
